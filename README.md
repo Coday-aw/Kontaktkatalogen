@@ -17,38 +17,38 @@ Unit tests: Omfattande tester med xUnit och Moq
 Design valen har jag förklarat i pull requesten.   
 
 
-## Projektstruktur  
-ContactCatalog/
-├── ContactCatalog/                 # Huvudprojekt
-│   ├── Models/
-│   │   └── Contact.cs             # Kontakt-modell
-│   ├── Repositories/
-│   │   ├── IContactRepository.cs  # Repository-interface
-│   │   └── ContactRepository.cs   # In-memory implementation
-│   ├── Services/
-│   │   └── ContactService.cs      # Affärslogik
-│   ├── Exceptions/
-│   │   ├── InvalidEmailException.cs
-│   │   └── DuplicateEmailException.cs
-│   ├── Validators/
-│   │   └── EmailValidator.cs      # Email-validering
-│   └── CatalogApp.cs              # Huvudprogram & meny
+## Projektstruktur    
+ContactCatalog/  
+├── ContactCatalog/                 # Huvudprojekt  
+│   ├── Models/  
+│   │   └── Contact.cs             # Kontakt-modell  
+│   ├── Repositories/  
+│   │   ├── IContactRepository.cs  # Repository-interface  
+│   │   └── ContactRepository.cs   # In-memory implementation  
+│   ├── Services/  
+│   │   └── ContactService.cs      # Affärslogik  
+│   ├── Exceptions/  
+│   │   ├── InvalidEmailException.cs  
+│   │   └── DuplicateEmailException.cs  
+│   ├── Validators/  
+│   │   └── EmailValidator.cs      # Email-validering  
+│   └── CatalogApp.cs              # Huvudprogram & meny  
 │
-├── ContactCatalog.Tests/           # Test-projekt
-│   ├── EmailValidatorTests.cs     # Validator-tester
-│   └── ContactServiceTests.cs     # Service-tester med Moq
+├── ContactCatalog.Tests/           # Test-projekt  
+│   ├── EmailValidatorTests.cs     # Validator-tester  
+│   └── ContactServiceTests.cs     # Service-tester med Moq  
 │
-└── ContactCatalog.sln              # Solution-fil
+└── ContactCatalog.sln              # Solution-fil  
 
 ## Installation & Körning
 
-git clone
-cd ContactCatalog
+git clone<https://github.com/Coday-aw/Kontaktkatalogen.git>  
+cd ContactCatalog  
 
-cd ContactCatalog
+cd ContactCatalog  
 dotnet run
 
-cd ContactCatalog.Tests
+cd ContactCatalog.Tests  
 dotnet test
 
 
