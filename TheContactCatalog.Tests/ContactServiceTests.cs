@@ -7,7 +7,6 @@ using Microsoft.Extensions.Logging;
 using System.Linq;
 namespace TheContactCatalog.Tests;
 
-// test for all my linq methods 
 public class ContactServiceTests
 {
     [Fact]
