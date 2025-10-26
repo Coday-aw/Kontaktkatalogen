@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheContactCatalog", "TheContactCatalog\TheContactCatalog.csproj", "{36275EE5-7F2C-4B6D-A6EE-2F8251DECE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheContactCatalog.Tests", "TheContactCatalog.Tests\TheContactCatalog.Tests.csproj", "{82814428-3DC0-4DD2-91B9-0ED898719158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36275EE5-7F2C-4B6D-A6EE-2F8251DECE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36275EE5-7F2C-4B6D-A6EE-2F8251DECE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36275EE5-7F2C-4B6D-A6EE-2F8251DECE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36275EE5-7F2C-4B6D-A6EE-2F8251DECE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82814428-3DC0-4DD2-91B9-0ED898719158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82814428-3DC0-4DD2-91B9-0ED898719158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82814428-3DC0-4DD2-91B9-0ED898719158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82814428-3DC0-4DD2-91B9-0ED898719158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
